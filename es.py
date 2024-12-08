@@ -1,9 +1,6 @@
 from elasticsearch import Elasticsearch, helpers
 import json
 
-username = "elastic"
-password = "QxWAM*6vGCKT3Y-bFRt8"
-
 # Connect to Elasticsearch with authentication
 es = Elasticsearch(
     hosts=["http://localhost:9200/"],
